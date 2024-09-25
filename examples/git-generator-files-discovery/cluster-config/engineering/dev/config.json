@@ -2,7 +2,7 @@
   "aws_account": "123456",
   "asset_id": "11223344",
   "cluster": {
-    "owner": "cluster-admin@company.com",
+    "owner": "matthew.moran@harness.io",
     "name": "sb1",
     "address": "http://34.132.205.49"
   }
