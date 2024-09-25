@@ -5,7 +5,7 @@ metadata:
 spec:
   generators:
     - git:
-        repoURL: https://github.com/argoproj/applicationset.git
+        repoURL: https://github.com/mmoran-harness/applicationset-example.git
         revision: HEAD
         files:
         - path: "examples/git-generator-files-discovery/cluster-config/**/config.json"
@@ -15,10 +15,10 @@ spec:
     spec:
       project: default
       source:
-        repoURL: https://github.com/argoproj/applicationset.git
+        repoURL: https://github.com/mmoran-harness/applicationset-example.git
         targetRevision: HEAD
         path: "examples/git-generator-files-discovery/apps/guestbook"
       destination:
-        server: https://kubernetes.default.svc
-        #server: '{{cluster.address}}'
+        #server: https://kubernetes.default.svc
+        server: '{{cluster.address}}'
         namespace: guestbook
