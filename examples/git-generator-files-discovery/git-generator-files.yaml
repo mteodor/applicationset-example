@@ -7,7 +7,7 @@ spec:
   goTemplateOptions: ["missingkey=error"]
   generators:
     - git:
-        repoURL: https://github.com/mmoran-harness/applicationset-example.git
+        repoURL: https://github.com/mteodor/applicationset-example.git
         revision: HEAD
         files:
         - path: "examples/git-generator-files-discovery/cluster-config/**/config.json"
@@ -15,9 +15,9 @@ spec:
     metadata:
       name: '{{cluster.name}}-guestbook'
     spec:
-      project: 780e0e79
+      project: 579c39e9
       source:
-        repoURL: https://github.com/mmoran-harness/applicationset-example.git
+        repoURL: https://github.com/mteodor/applicationset-example.git
         targetRevision: HEAD
         path: "examples/git-generator-files-discovery/apps/guestbook"
       destination:
