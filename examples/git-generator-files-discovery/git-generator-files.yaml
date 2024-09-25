@@ -13,7 +13,7 @@ spec:
     metadata:
       name: '{{cluster.name}}-guestbook'
     spec:
-      project: default
+      project: 780e0e79
       source:
         repoURL: https://github.com/mmoran-harness/applicationset-example.git
         targetRevision: HEAD
