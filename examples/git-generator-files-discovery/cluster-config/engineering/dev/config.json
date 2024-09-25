@@ -3,7 +3,7 @@
   "asset_id": "11223344",
   "cluster": {
     "owner": "cluster-admin@company.com",
-    "name": "engineering-dev",
-    "address": "http://1.2.3.4"
+    "name": "sb1",
+    "address": "http://34.132.205.49"
   }
 }
