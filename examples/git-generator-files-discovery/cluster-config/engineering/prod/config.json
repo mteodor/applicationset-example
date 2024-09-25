@@ -4,6 +4,6 @@
   "cluster": {
     "owner": "cluster-admin@company.com",
     "name": "sb2",
-    "address": "http://34.69.184.56"
+    "address": "https://34.69.184.56"
   }
 }
