@@ -4,6 +4,6 @@
   "cluster": {
     "owner": "matthew.moran@harness.io",
     "name": "sb1",
-    "address": "http://34.132.205.49"
+    "address": "https://34.132.205.49"
   }
 }
